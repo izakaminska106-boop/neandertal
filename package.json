@@ -1,0 +1,1 @@
+{"name":"witek-100-bmw","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node server.js","test":"node --test","check":"node --check src/game.js && node --check src/render.js && node --check src/main.js"}}
