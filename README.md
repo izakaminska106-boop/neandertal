@@ -28,7 +28,7 @@ npm run check
 | Pauza | Esc lub przycisk w HUD |
 | Restart po przegranej | R lub przycisk |
 
-Gra jest przeznaczona do komputera z klawiaturą. Obraz skaluje się proporcjonalnie do okna, bez zmiany fizyki. Utrata aktywności okna pauzuje grę. Dźwięk jest domyślnie wyciszony i wymaga interakcji gracza, by uruchomić Web Audio.
+Gra obsługuje klawiaturę oraz przyciski dotykowe na telefonach, w tym w Safari na iPhonie. Przytrzymaj strzałkę, by biec, i drugim palcem dotknij Skok albo Atak. Najwygodniej grać w poziomie. Obraz skaluje się proporcjonalnie do okna, bez zmiany fizyki. Utrata aktywności okna pauzuje grę. Dźwięk jest domyślnie wyciszony i wymaga interakcji gracza, by uruchomić Web Audio.
 
 ## Zasady i zapis
 
