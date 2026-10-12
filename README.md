@@ -58,3 +58,7 @@ Czas ludzkiego przejścia 15–25 minut oraz 60 FPS na typowym laptopie wymagaj�
 ## GitHub Pages
 
 Gra jest statyczna i działa z podkatalogu `/neandertal/` dzięki względnym ścieżkom zasobów. Plik `.nojekyll` wyłącza przetwarzanie Jekyll. W ustawieniach repozytorium GitHub wybierz **Pages → Deploy from a branch → main → / (root) → Save**. GitHub publikuje wyłącznie pliki statyczne; `server.js` nie jest potrzebny na hostingu Pages.
+
+### Domena własna
+
+Docelowa domena GitHub Pages: `www.przygodyneandertala.pl` (plik `CNAME`). U operatora DNS domeny ustaw rekord `CNAME`: nazwa `www`, cel `izakaminska106-boop.github.io` (bez protokołu i bez `/neandertal/`). Usuń wyłącznie kolidujące rekordy A/AAAA/CNAME dla `www`; nie zmieniaj rekordów poczty. Po poprawnym DNS i wystawieniu certyfikatu włącz **Enforce HTTPS** w GitHub Pages. Podłączenie domeny wymaga jej posiadania i dostępu do panelu DNS.
